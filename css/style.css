@@ -91,7 +91,8 @@ button:focus {
 .main_title {
   text-align: center;
   margin-bottom: 75px;
-  padding: 10px;}
+  padding: 10px;
+margin-top: 20px;}
   @media (max-width: 991px) {
     .main_title {
       margin-bottom: 40px; } }
@@ -111,10 +112,13 @@ button:focus {
     font-weight: 300;
     margin: auto; }
 
+
+  
 .lite_bg {
-  background-image: linear-gradient(to bottom right, #29f29c, #0db9dd);;
+  background-image:linear-gradient(to bottom right, #29f29c, #0db9dd);
   margin-top: 10px;
 }
+
 #bang_logo{
   margin-top: 50px;
 }
@@ -406,6 +410,7 @@ button:focus {
   display: flex;
   position: relative;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/home-banner.jpg) no-repeat scroll center; }
+
   .home_banner_area .banner_inner {
     position: relative;
     z-index: 10;
