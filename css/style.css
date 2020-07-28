@@ -410,7 +410,7 @@ margin-top: 80px;}
   min-height: 780px;
   display: flex;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/home-banner.jpg) no-repeat scroll center; }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/githome.jpg) no-repeat scroll center; }
 
   .home_banner_area .banner_inner {
     position: relative;
@@ -539,7 +539,7 @@ margin-top: 80px;}
 
 .banner_area {
   position: relative;
-  background: url(../img/banner/banner.jpg) no-repeat center center;
+  background: url(../img/banner/git.jpg) no-repeat center center;
   z-index: 1;
   min-height: 392px;
   padding-top: 0 !important; }
@@ -556,7 +556,7 @@ margin-top: 80px;}
       top: 0;
       bottom: 0;
       background: #000;
-      opacity: 0.4; }
+      opacity: 0.5; }
     .banner_area .banner_inner .banner_content {
       position: relative;
       z-index: 2;
@@ -1094,11 +1094,24 @@ margin-top: 80px;}
   max-width: auto;
   text-align: center;
 }
+.image {
+ opacity: 1;
+ display: block;
+ width: 100%;
+ height: auto;
+ margin-bottom: 40px;
+}
+
 
   .sub-header-udaan{
     margin-bottom: 50px;
     text-align: center;
   }
+.events-text{
+  color: black;
+}
+
+
 
 .single_instructor {
   text-align: center;
