@@ -92,7 +92,7 @@ button:focus {
   text-align: center;
   margin-bottom: 75px;
   padding: 10px;
-margin-top: 20px;}
+margin-top: 80px;}
   @media (max-width: 991px) {
     .main_title {
       margin-bottom: 40px; } }
@@ -113,14 +113,15 @@ margin-top: 20px;}
     margin: auto; }
 
 
-  
+
 .lite_bg {
   background-image:linear-gradient(to bottom right, #29f29c, #0db9dd);
   margin-top: 10px;
 }
 
-#bang_logo{
-  margin-top: 50px;
+.bang_logo{
+  margin-top: 100px;
+  text-align: center;
 }
 
 /* End Main Title Area  */
@@ -1083,6 +1084,22 @@ margin-top: 20px;}
     .instructors_area {
       padding: 60px 0 30px; } }
 
+.udaan-img{
+  margin-bottom:80px;
+  max-width: auto;
+  text-align: center;
+}
+.panch-img{
+  margin-top:50px;
+  max-width: auto;
+  text-align: center;
+}
+
+  .sub-header-udaan{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
 .single_instructor {
   text-align: center;
   margin-bottom: 30px; }
@@ -1665,6 +1682,13 @@ margin-top: 20px;}
 .mapBox {
   height: 420px;
   margin-bottom: 80px; }
+.contact-header{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+
 
 .contact_info .info_item {
   position: relative;
@@ -1717,6 +1741,7 @@ margin-top: 20px;}
       height: 140px; }
 .contact_form .primary-btn {
   margin-top: 20px;
+  margin-right: 10px;
   cursor: pointer; }
 
 /* Contact Success and error Area css
