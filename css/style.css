@@ -116,14 +116,17 @@ margin-top: 80px;}
 
 .lite_bg {
   background-image:linear-gradient(to bottom right, #29f29c, #0db9dd);
-  margin-top: 10px;
+  
 }
 
 .bang_logo{
   margin-top: 100px;
   text-align: center;
 }
-
+.banglogo{
+  max-width: 100%;
+  width:auto;
+}
 /* End Main Title Area  */
 
 
@@ -325,41 +328,6 @@ margin-top: 80px;}
     .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
       line-height: 70px; }
 
-#search_input_box {
-  text-align: center;
-  padding: 5px 20px; }
-  #search_input_box .form-control {
-    padding-left: 0;
-    background: transparent;
-    border: 0;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 18px; }
-    #search_input_box .form-control:focus {
-      box-shadow: none;
-      outline: none; }
-  #search_input_box input.placeholder {
-    color: #ffffff;
-    font-size: 16px; }
-  #search_input_box input:-moz-placeholder {
-    color: #ffffff;
-    font-size: 16px; }
-  #search_input_box input::-moz-placeholder {
-    color: #ffffff;
-    font-size: 16px; }
-  #search_input_box input::-webkit-input-placeholder {
-    color: #ffffff;
-    font-size: 16px; }
-  #search_input_box .btn {
-    width: 0;
-    height: 0;
-    padding: 0;
-    border: 0; }
-  #search_input_box .lnr-cross {
-    color: #fff;
-    font-weight: 600;
-    cursor: pointer;
-    padding: 10px 0; }
 
 .header-top {
   background: #000000; }
@@ -539,10 +507,11 @@ margin-top: 80px;}
 
 .banner_area {
   position: relative;
-  background: url(../img/banner/git.jpg) no-repeat center center;
+  background: url(../img/banner/git.jpg) no-repeat center ;
   z-index: 1;
   min-height: 392px;
-  padding-top: 0 !important; }
+  padding-top: 0 !important;
+}
   .banner_area .banner_inner {
     position: relative;
     overflow: hidden;
@@ -1059,7 +1028,8 @@ margin-top: 80px;}
 .single_event {
   margin-bottom: 30px; }
   .single_event .event_thumb {
-    overflow: hidden; }
+    overflow: hidden;
+    text-align: center;}
     .single_event .event_thumb img {
       -webkit-transition: all 0.3s ease 0s;
       -moz-transition: all 0.3s ease 0s;
@@ -1086,8 +1056,9 @@ margin-top: 80px;}
 
 .udaan-img{
   margin-bottom:80px;
-  max-width: auto;
   text-align: center;
+  width: 300px;
+padding-left: 50px;
 }
 .panch-img{
   margin-top:50px;
@@ -1100,6 +1071,7 @@ margin-top: 80px;}
  width: 100%;
  height: auto;
  margin-bottom: 40px;
+ text-align:center;
 }
 
 
