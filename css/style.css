@@ -68,10 +68,10 @@ button:focus {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
-  padding: 120px 0; }
+  padding: 120px 15px 125px 15px; }
   @media (max-width: 991px) {
     .section_gap {
-      padding: 60px 0; } }
+      padding: 60px 15px 60px 15px; } }
 
 .section_gap_top {
   padding-top: 120px; }
@@ -116,9 +116,11 @@ margin-top: 80px;}
 
 .lite_bg {
   background-image:linear-gradient(to bottom right, #29f29c, #0db9dd);
-  
 }
 
+.ex_bg{
+  background-image:linear-gradient(to bottom right, #97bff7, #0056cf);
+}
 .bang_logo{
   margin-top: 100px;
   text-align: center;
@@ -507,7 +509,8 @@ margin-top: 80px;}
 
 .banner_area {
   position: relative;
-  background: url(../img/banner/git.jpg) no-repeat center ;
+  background: url(../img/banner/git.jpg) no-repeat center;
+  max-width: 100%;
   z-index: 1;
   min-height: 392px;
   padding-top: 0 !important;
@@ -649,10 +652,16 @@ margin-top: 80px;}
 #about-text p{
   color:#000000;
 }
-
-
+#bang-text p{
+  color: #000;
+  font-weight: bold;
+}
+.about-heading{
+  margin-top: 30px;
+  text-align:center;
+}
 .popular_courses {
-  padding: 120px 0 90px; }
+  padding:ang-text 120px 0 90px; }
   @media (max-width: 991px) {
     .popular_courses {
       padding: 60px 0 30px; } }
@@ -718,6 +727,10 @@ margin-top: 80px;}
     transition: all 0.3s ease 0s; }
   .single_course:hover h4 a {
     color: #00aee0; }
+
+.course_content{
+  text-align: center;
+}
 
 /* End Popular Courses Area css
 ============================================================================================ */
@@ -1035,6 +1048,10 @@ margin-top: 80px;}
       -moz-transition: all 0.3s ease 0s;
       -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s; }
+
+      .event_details{
+        text-align: center;
+      }
   .single_event .event_details h4 {
     margin-bottom: 15px; }
     .single_event .event_details h4 a {
@@ -1059,6 +1076,7 @@ margin-top: 80px;}
   text-align: center;
   width: 300px;
 padding-left: 50px;
+max-width: 100%;
 }
 .panch-img{
   margin-top:50px;
@@ -3404,6 +3422,9 @@ h6 {
           text-align: center;
           }}
 
+.images-section{
+  width: 100%;
+}
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
