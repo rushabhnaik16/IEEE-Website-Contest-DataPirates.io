@@ -93,6 +93,10 @@ button:focus {
   margin-bottom: 75px;
   padding: 10px;
 margin-top: 80px;}
+
+.main_title > p{
+  color: #000;
+}
   @media (max-width: 991px) {
     .main_title {
       margin-bottom: 40px; } }
@@ -128,6 +132,10 @@ margin-top: 80px;}
 .banglogo{
   max-width: 100%;
   width:auto;
+}
+
+.bang-text{
+  font-size: 20px;
 }
 /* End Main Title Area  */
 
@@ -649,13 +657,15 @@ margin-top: 80px;}
 ============================================================================================ */
 /* Start Popular Courses Area css
 ============================================================================================ */
-#about-text p{
+#about-text > p{
   color:#000000;
+  background-color: #fff;
+  font-size: 20px;
+
+
+  box-shadow: 20px 20px 10px grey;
 }
-#bang-text p{
-  color: #000;
-  font-weight: bold;
-}
+
 .about-heading{
   margin-top: 30px;
   text-align:center;
@@ -1033,10 +1043,10 @@ margin-top: 80px;}
 /* Start Event Area css
 ============================================================================================ */
 .events_area {
-  padding: 120px 0 90px; }
+  padding: 10px 0 90px; }
   @media (max-width: 991px) {
     .events_area {
-      padding: 60px 0 30px; } }
+      padding: 10px 0 30px; } }
 
 .single_event {
   margin-bottom: 30px; }
@@ -1052,6 +1062,10 @@ margin-top: 80px;}
       .event_details{
         text-align: center;
       }
+     .event_details > p{
+       color: #000;
+     }
+
   .single_event .event_details h4 {
     margin-bottom: 15px; }
     .single_event .event_details h4 a {
@@ -1059,7 +1073,7 @@ margin-top: 80px;}
   .single_event:hover img {
     transform: scale(1.1); }
   .single_event:hover h4 a {
-    color: #00aee0; }
+    color: #fff; }
 
 /* End Event Area css
 ============================================================================================ */
@@ -1078,6 +1092,7 @@ margin-top: 80px;}
 padding-left: 50px;
 max-width: 100%;
 }
+
 .panch-img{
   margin-top:50px;
   max-width: auto;
