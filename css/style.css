@@ -5,9 +5,9 @@
 body {
   line-height: 25px;
   font-size: 16px;
-  font-family: "Crimson Text", serif;
+  font-family: "Montserrat", serif;
   font-weight: 600;
-  color: #777777; }
+  color: #fff; }
 
 h1,
 h2,
@@ -112,7 +112,7 @@ margin-top: 80px;}
   .main_title p {
     font-size: 16px;
     margin-bottom: 0px;
-    max-width: 570px;
+
     font-weight: 300;
     margin: auto; }
 
@@ -123,7 +123,14 @@ margin-top: 80px;}
 }
 
 .ex_bg{
-  background-image:linear-gradient(to bottom right, #97bff7, #0056cf);
+  background-image:url(../img/execom.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 100%;
+}
+
+.pan_bg {
+  background-image:linear-gradient(to bottom right, #29f29c, #0db9dd);
 }
 .bang_logo{
   margin-top: 100px;
@@ -388,7 +395,7 @@ margin-top: 80px;}
   min-height: 780px;
   display: flex;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/githome.jpg) no-repeat scroll center; }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/githome.png) no-repeat scroll center; }
 
   .home_banner_area .banner_inner {
     position: relative;
@@ -546,7 +553,10 @@ margin-top: 80px;}
         font-size: 48px; }
       @media (max-width: 991px) {
         .banner_area .banner_inner .banner_content p {
-          display: none; } }
+          display: none; }
+        .banner_area{
+          display:none;
+          }}
       .banner_area .banner_inner .banner_content .page_link {
         display: inline-block;
         padding: 7px 20px;
@@ -659,11 +669,8 @@ margin-top: 80px;}
 ============================================================================================ */
 #about-text > p{
   color:#000000;
-  background-color: #fff;
   font-size: 20px;
-
-
-  box-shadow: 20px 20px 10px grey;
+  font-weight: bold;
 }
 
 .about-heading{
@@ -671,10 +678,12 @@ margin-top: 80px;}
   text-align:center;
 }
 .popular_courses {
-  padding:ang-text 120px 0 90px; }
+  padding:ang-text 120px 0 90px;
+margin-top: 80px;}
   @media (max-width: 991px) {
     .popular_courses {
-      padding: 60px 0 30px; } }
+      padding: 10px 0 30px;
+      margin-top: 0px;} }
 
 .single_course {
   margin-bottom: 42px; }
@@ -1073,7 +1082,7 @@ margin-top: 80px;}
   .single_event:hover img {
     transform: scale(1.1); }
   .single_event:hover h4 a {
-    color: #fff; }
+    color: #777; }
 
 /* End Event Area css
 ============================================================================================ */
@@ -3326,7 +3335,7 @@ h6 {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #000000; }
+  background: #040e67; }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
       margin-bottom: 30px; } }
@@ -3349,9 +3358,9 @@ h6 {
         -moz-transition: all 0.3s ease 0s;
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
-        color: #777777; }
+        color: #fff; }
         .footer-area .single-footer-widget ul li a:hover {
-          color: #ffffff; }
+          color: #777; }
   .footer-area .single-footer-widget .form-wrap {
     margin-top: 25px; }
   .footer-area .single-footer-widget input {
@@ -3407,7 +3416,7 @@ h6 {
     .footer-area .footer-bottom .footer-social {
       text-align: right; }
       .footer-area .footer-bottom .footer-social a {
-        background: #111111;
+        background: ##030a46;
         width: 20px;
         width: 40px;
         display: inline-table;
@@ -3419,7 +3428,7 @@ h6 {
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s; }
         .footer-area .footer-bottom .footer-social a:hover i {
-          color: #fff; }
+          color: #000; }
       .footer-area .footer-bottom .footer-social i {
         color: #cccccc;
         -webkit-transition: all 0.3s ease 0s;
@@ -3432,7 +3441,7 @@ h6 {
           margin-top: 20px; }
         .single-footer-widget{
           text-align: center;
-          }
+        }
         .events-area{
           text-align: center;
           }}
