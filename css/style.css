@@ -393,8 +393,17 @@ margin-top: 80px;}
   min-height: 780px;
   display: flex;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/githome.png) no-repeat scroll center; }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/githome.jpg) no-repeat scroll center;
+}
 
+
+  @media (max-width: 500px) {
+    .home_banner_area{
+      z-index: 1;
+      display: flex;
+      position: relative;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/banner/githomemob.jpg) no-repeat center;
+    }}
   .home_banner_area .banner_inner {
     position: relative;
     z-index: 10;
@@ -881,9 +890,8 @@ margin-top: 80px;}
 ============================================================================================ */
 .fact_area {
   position: relative;
-  color: #fff;
-  background-image: url(../img/features-bg1.jpg);
-  background-size: cover;
+  color: #000;
+  background-image: url(../img/eventsbk.jpg);
   z-index: 1;
   padding: 120px 0 90px; }
   @media (max-width: 991px) {
@@ -891,9 +899,9 @@ margin-top: 80px;}
       padding: 60px 0 30px; } }
   .fact_area.overlay:after {
     background: #000;
-    opacity: 0.6; }
+    opacity: 0; }
   .fact_area .main_title h2 {
-    color: #fff; }
+    color: #000; }
   .fact_area .col-lg-4:nth-child(5) .single_fact {
     margin-top: -129px; }
     @media (max-width: 991px) {
@@ -913,7 +921,7 @@ margin-top: 80px;}
       margin-top: 0px; } }
 
 .single_fact {
-  background: rgba(255, 255, 255, 0.1);
+background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%); 
   padding: 40px;
   margin-bottom: 30px;
   border: 1px solid transparent;
@@ -922,7 +930,7 @@ margin-top: 80px;}
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
   .single_fact h4 {
-    color: #fff;
+    color: #000;
     margin-bottom: 20px; }
   .single_fact p {
     margin: 0px; }
@@ -3462,7 +3470,7 @@ h6 {
 
 .aboutimg{
   margin-top: 30px;
-  
+
   width:100%;
 }
 /*---------------------------------------------------- */
