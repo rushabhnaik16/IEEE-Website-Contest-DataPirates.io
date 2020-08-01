@@ -672,10 +672,15 @@ margin-top: 80px;}
 
 .dpmt_right h1 {
   font-size: 42px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+text-align: center;}
+.dpmt_right h6{
+  text-align: center;
+}
   @media (max-width: 575px) {
     .dpmt_right h1 {
       font-size: 30px;
+      margin-top: 15px;
       margin-bottom: 15px; } }
 .dpmt_right .primary-btn {
   margin-top: 30px; }
@@ -921,7 +926,7 @@ margin-top: 80px;}
       margin-top: 0px; } }
 
 .single_fact {
-background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%); 
+background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
   padding: 40px;
   margin-bottom: 30px;
   border: 1px solid transparent;
@@ -983,90 +988,7 @@ background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
 
 /* End Testimonial Area css
 ============================================================================================ */
-/* Start Registration Area css
-============================================================================================ */
-.clock_sec {
-  color: #fff; }
-  .clock_sec h1 {
-    font-size: 42px;
-    color: #fff; }
-    @media (max-width: 575px) {
-      .clock_sec h1 {
-        font-size: 30px; } }
-  .clock_sec .clockinner {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 40px 20px;
-    margin-right: 15px;
-    text-align: center;
-    border: 1px solid #66e9eb;
-    border-radius: 5px;
-    margin-top: 65px; }
-    @media (max-width: 767px) {
-      .clock_sec .clockinner {
-        margin: 0 15px;
-        padding: 10px;
-        margin-top: 30px; } }
-    @media (max-width: 400px) {
-      .clock_sec .clockinner {
-        margin-right: 0;
-        padding: 10px 5px; } }
-    .clock_sec .clockinner:last-child {
-      margin-right: 0; }
-      @media (max-width: 575px) {
-        .clock_sec .clockinner:last-child {
-          margin-right: 15px; } }
-    .clock_sec .clockinner h1 {
-      font-size: 36px;
-      display: inline-block; }
 
-.register_form {
-  background: #fff;
-  text-align: center;
-  padding: 40px; }
-  @media (max-width: 991px) {
-    .register_form {
-      margin-top: 30px; } }
-  .register_form h3 {
-    font-size: 24px;
-    margin-bottom: 0; }
-  .register_form input {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #eeeeee;
-    padding: 12px; }
-    .register_form input:focus {
-      outline: none;
-      box-shadow: none; }
-    .register_form input.placeholder {
-      color: #aaaaaa;
-      font-size: 14px;
-      font-weight: 500;
-      font-family: "Crimson Text", serif; }
-    .register_form input:-moz-placeholder {
-      color: #aaaaaa;
-      font-size: 14px;
-      font-weight: 500;
-      font-family: "Crimson Text", serif; }
-    .register_form input::-moz-placeholder {
-      color: #aaaaaa;
-      font-size: 14px;
-      font-weight: 500;
-      font-family: "Crimson Text", serif; }
-    .register_form input::-webkit-input-placeholder {
-      color: #aaaaaa;
-      font-size: 14px;
-      font-weight: 500;
-      font-family: "Crimson Text", serif; }
-  .register_form .primary-btn {
-    width: 100%;
-    border-radius: 0;
-    border: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-top: 30px; }
-
-/* End Registration Area css
-============================================================================================ */
 /* Start Event Area css
 ============================================================================================ */
 .events_area {
