@@ -20,5 +20,21 @@
   margin-top: 50px;
   text-transform: capitalize;
   margin-right: 20px;
-  margin-bottom: 200px;
+  margin-bottom: 200px;}
+
+
+  @media (max-width: 991px) {
+    .owl-prev{
+      float: left;
+      margin-top: 50px;
+      text-transform: capitalize;
+      margin-left: 20px;
+      margin-bottom: 200px;
+    }
+    .owl-next{
+      float: right;
+      margin-top: 50px;
+      text-transform: capitalize;
+      margin-right: 20px;
+      margin-bottom: 200px;}
 }
