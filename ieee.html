@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
     <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -125,21 +127,21 @@
       		<div class="container">
       			<div class="row justify-content-center">
       					<div class="col-lg-12">
-      						<div class="bang_logo">
+      						<div class="bang_logo"data-aos="zoom-in">
       						<a href="https://ieee.org" target="_blank">
       						<img src="img/ieeeaboutpage.jpg" alt="" class="banglogo"></img></a>
       					</div>
       					</div>
       				<div class="col-lg-12">
       					<div class="main_title">
-      						<h2>IEEE</h2>
+      						<h2 class="ijs" data-in-effect="bounceIn">IEEE</h2>
                     <h4>Institute of Electrical and Electronics Engineers</h4>
       						<p id="bang-text">IEEE and its members inspire a global community to innovate for a better tomorrow through its more than 419,000 members in over 160 countries, and its highly cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted “voice” for engineering, computing, and technology information around the globe.</p>
                   <p id="bang-text">IEEE and its organizational units engage in coordinated public policy activities at the national, regional, and international levels in order to advance the mission and vision of securing the benefits of technology for the advancement of society. The IEEE Global Public Policy website provides a window into these activities, as well as a repository of all public policy positions and statements adopted by IEEE or its organizational units in order to support the goal of engaging and informing IEEE members, the public, and policymakers around the world on technology-related aspects of public policy issues.</p>
       				</div>
       				</div>
       			</div>
-            <div class="col-md-12 text-center info-button">
+            <div class="col-md-12 text-center info-button" data-aos="zoom-in">
                             <button type="submit" value="submit" class="btn primary-btn"><a href="https://www.ieee.org/" target="_blank">Click for more info</a></button>
                         </div>
       		</div>
@@ -212,10 +214,27 @@
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="vendors/counter-up/jquery.counterup.js"></script>
     <script src="js/mail-script.js"></script>
-    <!--gmaps Js-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-    <script src="js/gmaps.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+  	<script src="js/jquery.fittext.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="js/theme.js"></script>
+
+    <script>
+    $(function () {
+    $('.ijs').textillate({
+    out: {effect: 'rollOut', delay:200},
+    loop: true
+    });
+    })
+    </script>
+
+    <script>
+    AOS.init({
+  		duration:1000,
+  	});
+  </script>
 </body>
 
 </html>

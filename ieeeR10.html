@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
     <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -127,20 +129,20 @@
       		<div class="container">
       			<div class="row justify-content-center">
       					<div class="col-lg-12">
-      						<div class="bang_logo">
+      						<div class="bang_logo" data-aos="zoom-in">
       						<a href="https://www.ieeer10.org/" target="_blank">
       						<img src="img/ieeer10.jpg" alt="" class="banglogo"></img></a>
       					</div>
       					</div>
       				<div class="col-lg-12">
       					<div class="main_title">
-      						<h2>IEEE R10</h2>
+      						<h2 class="ijs" data-in-effect="bounceIn">IEEE R10</h2>
       						<p id="bang-text">The IEEE Region 10, also sometimes referred as the Asia Pacific Region, comprises of 57 Sections, 6 Councils, 17 Sub-sections, 515 Chapters, 60 Affinity Groups and 958 Student Branches. It covers a geographical area stretching from South Korea and Japan in the north-east to New Zealand in the south, and Pakistan in the west. With a membership of 107,154, it is one of the largest regions in IEEE.
                   </p>
       				</div>
       				</div>
       			</div>
-            <div class="col-md-12 text-center info-button ">
+            <div class="col-md-12 text-center info-button " data-aos="zoom-in">
                             <button type="submit" value="submit" class="btn primary-btn"><a href="https://www.ieeer10.org/" target="_blank">Click for more info</a></button>
                         </div>
       		</div>
@@ -214,9 +216,24 @@
     <script src="vendors/counter-up/jquery.counterup.js"></script>
     <script src="js/mail-script.js"></script>
     <!--gmaps Js-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-    <script src="js/gmaps.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/theme.js"></script>
+    <script>
+    $(function () {
+    $('.ijs').textillate({
+    out: {effect: 'rollOut', delay:200},
+    loop: true
+    });
+    })
+    </script>
+    <script>
+    AOS.init({
+  		duration:1000,
+  	});
+  </script>
 </body>
 
 </html>

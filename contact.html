@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
     <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -86,7 +88,7 @@
                   <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                    aria-expanded="false">about</a>
                   <ul class="dropdown-menu">
-                    	<li class="nav-item"><a class="nav-link" href="ieeegit.html">ieee git</a></li>
+                    	<li class="nav-item"><a class="nav-link" href="ieee.html">ieee</a></li>
                     	<li class="nav-item"><a class="nav-link" href="ieeegit.html">IEEE GIT</a></li>
                     <li class="nav-item"><a class="nav-link" href="ieeeR10.html">IEEE R10</a></li>
                     <li class="nav-item"><a class="nav-link" href="ieeebang.html">IEEE Banglore</a></li>
@@ -126,7 +128,7 @@
     <!--================Contact Area =================-->
     <section class="contact_area section_gap">
       <div class="contact-header">
-        <h1>IEEE GIT STUDENT BRANCH</h1>
+        <h1 class="ijs" data-in-effect="bounceIn">IEEE GIT STUDENT BRANCH</h1>
       </div>
             <div class="row">
                 <div class="col-lg-3">
@@ -168,7 +170,7 @@
                                 <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
                             </div>
                         </div>
-                        <div class="col-md-12 text-right">
+                        <div class="col-md-12 text-right" data-aos="zoom-in-right">
                             <button type="submit" value="submit" class="btn primary-btn">Send Message</button>
                         </div>
                     </form>
@@ -240,12 +242,28 @@
     <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/owl-carousel-thumb.min.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="vendors/counter-up/jquery.counterup.js"></script>
     <script src="js/mail-script.js"></script>
-    <!--gmaps Js-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-    <script src="js/gmaps.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+  	<script src="js/jquery.fittext.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="js/theme.js"></script>
+    <script>
+    $(function () {
+    $('.ijs').textillate({
+    out: {effect: 'rollOut', delay:200},
+    loop: true,
+
+    });
+    })
+    </script>
+
+    <script>
+    AOS.init({
+  		duration:1000,
+  	});
+  </script>
 </body>
 
 </html>
