@@ -3417,6 +3417,14 @@ h6 {
 
   width:100%;
 }
-/*---------------------------------------------------- */
 
-/*# sourceMappingURL=style.css.map */
+.upevents_img{
+text-align: center;
+}
+
+.more-buttons-class{
+  margin: 30px 10px 10px 10px;
+}
+.more-buttons-class h3{
+  text-align: center;
+}
