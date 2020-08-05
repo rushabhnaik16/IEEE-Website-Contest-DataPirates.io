@@ -69,6 +69,7 @@
   								<a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true"
   								 aria-expanded="false">events</a>
   								<ul class="dropdown-menu">
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">gallery</a></li>
                     	<li class="nav-item"><a class="nav-link" href="upcomingevents.html">UPCOMING</a></li>
   									<li class="nav-item"><a class="nav-link" href="events.html">All events</a></li>
   								</ul>
@@ -197,6 +198,7 @@
         <center><p style="margin-top: 80px;">Site Made by Team DataPirates.io</p><center>
       </div>
     </div>
+    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
   </footer>
     <!--================End Contact Success and Error message Area =================-->
 
@@ -237,6 +239,25 @@
       duration:1000,
     });
   </script>
+
+  <script>
+  $(window).scroll(function() {
+      var height = $(window).scrollTop();
+      if (height > 100) {
+          $('#back2Top').fadeIn();
+      } else {
+          $('#back2Top').fadeOut();
+      }
+  });
+  $(document).ready(function() {
+      $("#back2Top").click(function(event) {
+          event.preventDefault();
+          $("html, body").animate({ scrollTop: 0 }, "slow");
+          return false;
+      });
+
+  });
+   </script>
 </body>
 
 </html>

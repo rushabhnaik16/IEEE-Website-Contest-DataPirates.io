@@ -3428,3 +3428,61 @@ text-align: center;
 .more-buttons-class h3{
   text-align: center;
 }
+
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #04378a;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 25%;
+    animation: pulse 2s infinite;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+@keyframes pulse {
+  0%{
+    box-shadow:     0 0 0 0 rgba(87, 152, 253, 0.99);
+  }
+  70%{
+    box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+  }
+  100%{
+      box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+  }
+}
+  @media (max-width: 991px){
+    #back2Top{
+      opacity: 0.5;
+    }
+  }
+
+  .links a{
+font-weight: 200px;
+color: #000;
+  }
+  .links a:hover{
+    color:#0853c9;
+  }
+
+  .links{
+    text-align: left;
+    margin-top: 30px;
+  }
