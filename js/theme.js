@@ -22,15 +22,6 @@
     };
     navbarFixed();
 
-    // Search Toggle
-    $("#search_input_box").hide();
-    $("#search").on("click", function () {
-        $("#search_input_box").slideToggle('slow');
-        $("#search_input").focus();
-    });
-    $("#close_search").on("click", function () {
-        $('#search_input_box').slideUp('slow');
-    });
 
 
     /*----------------------------------------------------*/
