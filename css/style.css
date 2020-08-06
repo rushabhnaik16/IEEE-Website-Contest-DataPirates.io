@@ -3120,19 +3120,3 @@ color: #000;
       text-align: center;
     }
   }
-
-  .git-page-text p{
-    color:#000;
-    margin-top:0;
-  }
-
-  .git-page-text{
-    text-align: left;
-  }
-
-  @media (max-width: 991px){
-    .git-page-text h4,h2,h3{
-      text-align: center;
-
-    }
-  }
