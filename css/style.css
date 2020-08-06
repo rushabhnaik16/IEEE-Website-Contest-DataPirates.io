@@ -580,6 +580,9 @@ margin-top: 80px;}
            .banner_content h2{
              margin-top: 180px;
            }
+           .hmpg h2{
+             text-align: left;
+           }
         }
 
       .banner_area .banner_inner .banner_content .page_link {
@@ -946,7 +949,8 @@ background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
     color: #000;
     margin-bottom: 20px; }
   .single_fact p {
-    margin: 0px; }
+    margin: 0px;
+  color:#000;}
   .single_fact .f_icon {
     margin-bottom: 30px; }
   .single_fact:hover {
@@ -3111,5 +3115,24 @@ color: #000;
   @media (max-width: 991px){
     .links{
       margin-top: 30px;
+    }
+    .links h2,h3{
+      text-align: center;
+    }
+  }
+
+  .git-page-text p{
+    color:#000;
+    margin-top:0;
+  }
+
+  .git-page-text{
+    text-align: left;
+  }
+
+  @media (max-width: 991px){
+    .git-page-text h4,h2,h3{
+      text-align: center;
+
     }
   }
