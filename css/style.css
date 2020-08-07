@@ -702,8 +702,8 @@ text-align: center;}
 ============================================================================================ */
 #about-text > p{
   color:#000000;
-  font-size: 20px;
-  
+  text-align: center;
+  margin: 20px;
 }
 
 .about-heading{
