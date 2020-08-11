@@ -124,9 +124,11 @@ margin-top: 80px;}
 }
 
 .ex_bg{
-  background: linear-gradient(90deg, #66e0ff 0%,#b3f0ff 100%);
+  background: linear-gradient(90deg, #1ab2ff 0%,#1ab2ff 100%);
   max-width: 100%;
 }
+
+
 .events-img-section{
   margin-bottom: 50px;
 }
